@@ -9,10 +9,16 @@
 <body>
     <h1>Teste Javascript</h1>
     <script>
+        var nome = window.prompt('Qual seu nome?')
+        document.write(`Prazer em te conhecer, ${nome} <br>`)
         
-        document.write(`A soma digitada é: ${s}`)
+        var n1 = Number(window.prompt('Digite um numero : '))
+        var n2 = Number(window.prompt('Digite outro numero : '))
+        var s = n1 + n2
         var idade = Number(window.prompt(`Digite sua idade`))
-        var alis = idade >= 18 ? 'Parabens, vc deve se alistar':'Infelizmente, vc ainda nao tem idade'
+        var alis = alert(idade >= 18 ? 'Parabens, vc deve se alistar':'Infelizmente, vc ainda nao tem idade')
+        document.write(`A soma digitada é: ${s}`)
+        
     </script>
 </body>
 </html>
