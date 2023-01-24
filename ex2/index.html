@@ -25,32 +25,16 @@
     <input type="number" name="n0" id="n0">
     <input type="number" name="n" id="n">
     <input type="submit" value="Somar" id="o" onclick="somar()">
-    <div id="res">Resultado da soma</div>
-    <div id="sub">Resultado da subtracao</div>
-    <div id="multi">Resultado da Multiplicacao</div>
-    <div id="div">Resultado da Divisao</div>
+    <div id="res">Resultado</div>
 <script>
-    var o = window.document.getElementById('o')
-    o.style.background = 'black'
-    o.style.color = 'white'
     function somar() {
         var n0 = window.document.getElementById('n0')
         var n = window.document.getElementById('n')
         var n1 = Number(n0.value)
         var n2 = Number(n.value)
         var res = window.document.getElementById('res')
-        var sub = window.document.getElementById('sub')
-        var multi = window.document.getElementById('multi')
-        var div = window.document.getElementById('div')
         var s = n1 + n2
-        var sub = n1 - n2
-        var mul = n1 * n2
-        var div = n1 / n2
         res.innerHTML = `A soma e igual a ${s}`
-        sub.innerHTML = `A subtracao e igual a ${sub}`
-        sub.innerHTML = `A multiplicacao e igual a ${multi}`
-        sub.innerHTML = `A Divisao e igual a ${div}`
-
     }
 </script>
 </body>
