@@ -17,8 +17,9 @@
 <body>
     <h1>Teste DOM</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit odio ex nostrum <strong>magnam</strong> eos optio labore, deleniti saepe reprehenderit sint excepturi error quam dolorum? Illum, molestias facere. Asperiores, perferendis nisi!</p>
-    
-    <button id="o">Clique</button>
+    <input type="number" name="n" id="n">
+    <input type="number" name="n2" id="n2">
+    <input type="submit" value="Clique" id="o" onclick="clicar">
 <script>
     var n = window.document.getElementsByTagName('p') [0]
     n.style.background = 'white'
@@ -26,16 +27,9 @@
     var o = window.document.getElementById('o')
     o.style.background = 'black'
     o.style.color = 'white'
-    o.addEventListener('click', clicar)
-    o.addEventListener('mouseout', clicado)
     function clicar(){
         o.innerHTML = 'Voce clicou'
-    }
-    function clicado(){
-        o.innerHTML = 'Clique'
-    }
-
-    
+    }    
 </script>
 </body>
 </html>
