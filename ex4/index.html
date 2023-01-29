@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana</title>
+</head>
+<body>
+    <div id="res">
+        Resultado
+    </div>
+    <script>
+        var agora = new Date()
+        var diaSem = agora.getDay()
+        var res = window.document.getElementById('res')
+        switch(diaSem){
+            case 0:
+                res.innerHTML = `é Domingo`
+                break
+            case 1:
+                res.innerHTML = `é Segunda`
+                break
+            case 2:
+                res.innerHTML = `é terca`
+                break
+            case 3:
+                res.innerHTML = `é Quarta`
+                break
+            case 4:
+                res.innerHTML = `é Quinta`
+                break
+            case 5:
+                res.innerHTML = `é Sexta`
+                break
+            case 6:
+                res.innerHTML = `é Sabado`
+                break
+        }
+    </script>
+</body>
+</html>
