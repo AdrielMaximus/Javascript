@@ -18,7 +18,12 @@
             var velo = window.document.getElementById('vel')
             var res = window.document.getElementById('res')
             var vel = Number(velo.value)
-            res.innerHTML = `Sua velocidade atual é de <strong>${vel} km/h</strong>`
+            if(vel > 65) {
+                var ex = vel-65
+                res.innerHTML += `<p> Voce foi Multado, por excesso de velocidade</p> com velocidade <strong> ${ex} km/h </strong> acima do limite`
+            } else{
+            res.innerHTML = `Sua velocidade atual é de <strong>${vel} km/h</strong>. Dirija com <strong>Cuidado</strong>`
+            }
         }
     </script>
 </body>
