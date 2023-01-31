@@ -1,0 +1,11 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #3B7BCB;
+}
+main{
+    margin: auto;
+    background-color: white;
+}
