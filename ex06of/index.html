@@ -10,16 +10,17 @@
 <body onload="carregar()">
     <main>
         <header>
-            <h1>Hora do Dia</h1>
+            <h1>Testando idade</h1>
         </header>
         <section>
-            <div id="msg">
-                
+            <div>
+                <p>Ano de nascimento: <input type="number" name="ano" id="ano"></p>
+                <p>sexo: <input type="radio" id="sex" name="sex" value="1" />Female
+                <input type="radio" id="sex" name="sex" value="0" />Male</p>
+                <input type="submit" value="Verificar" onclick="calcular()">
             </div>
-            <div id="ft">
-                <img src="transferir.jpg" alt="Foto manha" id="imagem">
-                <img src="" alt="" id="tarde">
-                <img src="" alt="" id="noite">
+            <div id="res">
+                Preencha os dados acima pra ver o resultado
             </div>
         </section>
         <footer>

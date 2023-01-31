@@ -1,15 +1,13 @@
-
-function carregar(){
+function calcular(){
     var data = new Date()
-    var msg = window.document.getElementById('msg')
-    var img = window.document.getElementById('imagem')
-    var hora = data.getHours()
-    msg.innerHTML =`Agora sao ${hora} Horas`
-    if(hora>=6 && hora < 12) {
-        img.src = 'ft manha.jpg'
-    } else if(hora >=12 && hora < 18){
-        img.src = 'ft.tarde.jpg'
-    } else{
-        img.src = 'ft noite.jpg'
+    var nano = data.getFullYear()
+    var fano = document.getElementById("ano")
+    var res = document.getElementById("res")
+    if (fano.value.length == 0 || fano.value > nano) {
+        window.alert('ERRO')
+    } else {
+        var sexo = document.getElementByName("sex")
+        var idade = nano - Number(fano.value)
+        res.innerHTML = `Idade calculada: ${idade}`
     }
 }
