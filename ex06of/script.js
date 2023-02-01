@@ -1,7 +1,7 @@
 function calcular(){
     var data = new Date()
-    var nano = data.getFullYear()
-    var fano = document.getElementById("ano")
+    var ano = data.getFullYear()
+    var fano = document.getElementById("txtano")
     var res = document.getElementById("res")
     if (fano.value.length == 0 || fano.value > nano) {
         window.alert('ERRO')
