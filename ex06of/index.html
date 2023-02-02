@@ -7,29 +7,32 @@
     <link rel="stylesheet" href="style.css">
     <title>Hora do Dia</title>
 </head>
-<body onload="carregar()">
-    <main>
+<body>
         <header>
             <h1>Testando idade</h1>
         </header>
         <section>
             <div>
                 <p>Ano de nascimento:
-                    <input type="number" name="ano" id="txtano">
+                    <input type="number" name="ano" id="txtano" min="0">
                 </p>
                 <p>sexo:
-                    <input type="radio" id="masc" name="radsex" value="0" checked/>Male</p>
-                    <input type="radio" id="fem" name="radsex" value="1" />Female
-                    <input type="button" value="Verificar" onclick="verificar()">
+                    <input type="radio" id="mas" name="radsex" checked/>
+                    <label for="mas">Masculino</label>
+                    <input type="radio" id="fem" name="radsex"/>
+                    <label for="fem">Feminino</label>
+                </p>
+                <p>
+                    <input type="button" value="Verificar" onclick="v()">
+                </p>
             </div>
             <div id="res">
-                <p>Preencha os dados acima pra ver o resultado</p>
+                Preencha os dados acima pra ver o resultado
             </div>
         </section>
         <footer>
             <p>&copy;Adriel Maximus</p>
         </footer>
-    </main>
     <script src="script.js"></script>
 </body>
 </html>
