@@ -29,4 +29,9 @@ input{
 #butao{
     width: 58px;
 }
+footer{
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 0px 0px 36px black;
+}
 
