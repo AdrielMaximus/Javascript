@@ -9,23 +9,17 @@
 </head>
 <body>
     <header>
-        <h1>Vamos contar</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
         <div>
-            <label for="inicio">Inicio: </label>
-            <input type="number" name="inicio" id="inicio">
-            <br>
-            <label for="fim" id="fin">Fim:</label>
-            <input type="number" name="fim" id="fim" >
-            <br>
-            <label for="passo">Passo: </label>
-            <input type="number" name="passo" id="passo">
+            <label for="num">Numero </label>
+            <input type="number" name="num" id="num">
             <br>
             <input type="submit" value="Iniciar" onclick="Calcular()" id="butao">
         </div>
         <div id="res">
-            Preparando a Contagem...
+            <select name="tabuada" id="tabuada"></select>
         </div>
         <script src="script.js"></script>
     </section>
