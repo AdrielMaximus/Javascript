@@ -1,0 +1,37 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #3C81D4;
+}
+header{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+section{
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    width: 550px;
+}
+div{
+    padding: 10px;
+    margin-top: 19px;
+}
+
+input{
+    margin-top: 20px;
+}
+#butao{
+    width: 58px;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 0px 0px 36px black;
+}
+
