@@ -15,6 +15,8 @@ function adicionar(){
         window.alert('ERRO, digite um numero valido')
     } else if (inlista(num), valores){
         window.alert('ERRO, digite um numero nao listado')
+    } else{
+        valores.push(num)
     }
 
 }
