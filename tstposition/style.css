@@ -1,0 +1,52 @@
+@charset "UTF-8" ;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.containerg{
+    border: 3px dashed black;
+    width: 75vw;
+    height: 85vh;
+    margin: 40px auto;
+}
+.containerp{
+    border: 2px solid blue;
+    width: 40vw;
+    height: 50vh;
+    margin: 200px auto;
+}
+.absolute{
+    background-color: blue;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    top: 0;
+    left: 0;
+}
+.relative{
+    background-color: red;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    
+}
+.fixed{
+    background-color: yellow;
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    top: 100px;
+}
+.sticky{
+    background-color: green;
+    position: sticky;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    top: 0;
+    
+}
