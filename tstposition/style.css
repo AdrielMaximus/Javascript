@@ -53,12 +53,12 @@
 header, footer{
     color: white;
     text-align: center;
-    height: 100px;
-    font-size: 3rem;
+    height: 100px;  
 }
 header{
     position: sticky;
     top: 0;
+    font-size: 3rem;
 }
 section{
     height: 100vh;
